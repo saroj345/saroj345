@@ -24,7 +24,6 @@ $ cat /etc/saroj/profile.conf
 name        = Saroj
 role        = Security Engineer · Penetration Tester · DevSecOps
 experience  = 5+ years
-employer    = Zakipoint Health
 portfolio   = saroj345.github.io
 
 [certifications]
