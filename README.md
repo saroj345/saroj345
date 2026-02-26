@@ -69,7 +69,9 @@ motto        = "Break it. Fix it. Automate it. Ship it."
 <div align="center">
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=saroj345&show_icons=true&theme=tokyonight&hide_border=true&bg_color=070d1a&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9)](https://github.com/saroj345)
+
 &nbsp;&nbsp;
+
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=saroj345&layout=compact&theme=tokyonight&hide_border=true&bg_color=070d1a&title_color=00d4ff&text_color=c9d1d9)](https://github.com/saroj345)
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=saroj345&theme=tokyonight-duo&hide_border=true&background=070d1a&ring=00d4ff&fire=00ff88&currStreakLabel=00d4ff)](https://github.com/saroj345)
@@ -101,38 +103,3 @@ motto        = "Break it. Fix it. Automate it. Ship it."
 
 </div>
 
----
-
-<details>
-<summary><code>⚙️ How to set up the contribution snake animation</code></summary>
-
-Create `.github/workflows/snake.yml` in your repo:
-
-```yaml
-name: generate animation
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: saroj345
-          outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Then run it once manually from the **Actions** tab.
-
-</details>
