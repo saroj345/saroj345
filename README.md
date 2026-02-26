@@ -68,12 +68,6 @@ motto        = "Break it. Fix it. Automate it. Ship it."
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=saroj345&show_icons=true&theme=tokyonight&hide_border=true&bg_color=070d1a&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9)](https://github.com/saroj345)
-
-&nbsp;&nbsp;
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=saroj345&layout=compact&theme=tokyonight&hide_border=true&bg_color=070d1a&title_color=00d4ff&text_color=c9d1d9)](https://github.com/saroj345)
-
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=saroj345&theme=tokyonight-duo&hide_border=true&background=070d1a&ring=00d4ff&fire=00ff88&currStreakLabel=00d4ff)](https://github.com/saroj345)
 
 </div>
