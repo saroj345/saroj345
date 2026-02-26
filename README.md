@@ -11,7 +11,7 @@
 > 5 years breaking things professionally so others can't break them maliciously.
 > Hardening healthcare infrastructure at Zakipoint Health where a security gap isn't just a business problem, it's a patient safety problem.
 > Certified ethical hacker and cloud architect by training. DevSecOps engineer and penetration tester by practice.
-> Headed toward **kernel & OS level security** and **critical infrastructure** — where the stakes are highest and the attack surface goes all the way down to the metal.
+> Headed toward **kernel & OS level security** and **critical infrastructure** where the stakes are highest and the attack surface goes all the way down to the metal.
 
 ---
 
