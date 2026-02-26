@@ -1,0 +1,68 @@
+<svg width="900" height="150" viewBox="0 0 900 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgCerts" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#070d1a"/>
+      <stop offset="100%" style="stop-color:#0a1220"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="150" fill="url(#bgCerts)" rx="8"/>
+  <rect width="898" height="148" x="1" y="1" fill="none" stroke="#1e3a5f" stroke-width="1" rx="7"/>
+  <text x="24" y="28" font-family="'Courier New', monospace" font-size="11" fill="#00d4ff" letter-spacing="3">// CERTIFICATIONS</text>
+  <line x1="195" y1="22" x2="876" y2="22" stroke="#1e3a5f" stroke-width="1"/>
+
+  <!-- ✓ verified pill — floats ABOVE each card, outside it -->
+  <!-- CEH verified pill -->
+  <rect x="148" y="30" width="68" height="16" rx="8" fill="rgba(0,255,136,0.15)" stroke="#00ff88" stroke-width="0.8"/>
+  <text x="182" y="41" font-family="'Courier New', monospace" font-size="8" fill="#00ff88" text-anchor="middle">✓ verified</text>
+
+  <!-- AWS SAA verified pill -->
+  <rect x="462" y="30" width="68" height="16" rx="8" fill="rgba(0,255,136,0.15)" stroke="#00ff88" stroke-width="0.8"/>
+  <text x="496" y="41" font-family="'Courier New', monospace" font-size="8" fill="#00ff88" text-anchor="middle">✓ verified</text>
+
+  <!-- AWS CCP verified pill -->
+  <rect x="730" y="30" width="68" height="16" rx="8" fill="rgba(0,255,136,0.15)" stroke="#00ff88" stroke-width="0.8"/>
+  <text x="764" y="41" font-family="'Courier New', monospace" font-size="8" fill="#00ff88" text-anchor="middle">✓ verified</text>
+
+  <!-- CEH Card -->
+  <g transform="translate(24, 50)" opacity="0">
+    <rect width="220" height="88" rx="8" fill="#0d1b2e" stroke="#f59e0b" stroke-width="1.5"/>
+    <rect width="220" height="88" rx="8" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.3">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="0" width="60" height="88" rx="8" fill="rgba(245,158,11,0.12)"/>
+    <text x="30" y="52" font-family="'Courier New', monospace" font-size="28" text-anchor="middle" fill="#f59e0b">🏅</text>
+    <text x="74" y="28" font-family="'Courier New', monospace" font-size="12" fill="#fcd34d" font-weight="bold">CEH</text>
+    <text x="74" y="46" font-family="'Courier New', monospace" font-size="9.5" fill="#c9d1d9">Certified Ethical Hacker</text>
+    <text x="74" y="62" font-family="'Courier New', monospace" font-size="9" fill="#6e7681">EC-Council</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.2s" fill="freeze"/>
+  </g>
+
+  <!-- AWS SAA Card -->
+  <g transform="translate(260, 50)" opacity="0">
+    <rect width="268" height="88" rx="8" fill="#0d1b2e" stroke="#ff9900" stroke-width="1.5"/>
+    <rect width="268" height="88" rx="8" fill="none" stroke="#ff9900" stroke-width="1" opacity="0.3">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="0" width="60" height="88" rx="8" fill="rgba(255,153,0,0.12)"/>
+    <text x="30" y="52" font-family="'Courier New', monospace" font-size="28" text-anchor="middle" fill="#ff9900">☁️</text>
+    <text x="74" y="28" font-family="'Courier New', monospace" font-size="12" fill="#ffb84d" font-weight="bold">AWS SAA</text>
+    <text x="74" y="46" font-family="'Courier New', monospace" font-size="9.5" fill="#c9d1d9">Solutions Architect Associate</text>
+    <text x="74" y="62" font-family="'Courier New', monospace" font-size="9" fill="#6e7681">Amazon Web Services</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.4s" fill="freeze"/>
+  </g>
+
+  <!-- AWS CCP Card -->
+  <g transform="translate(544, 50)" opacity="0">
+    <rect width="248" height="88" rx="8" fill="#0d1b2e" stroke="#ff9900" stroke-width="1.5"/>
+    <rect width="248" height="88" rx="8" fill="none" stroke="#ff9900" stroke-width="1" opacity="0.3">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="0" width="60" height="88" rx="8" fill="rgba(255,153,0,0.12)"/>
+    <text x="30" y="52" font-family="'Courier New', monospace" font-size="28" text-anchor="middle" fill="#ff9900">☁️</text>
+    <text x="74" y="28" font-family="'Courier New', monospace" font-size="12" fill="#ffb84d" font-weight="bold">AWS CCP</text>
+    <text x="74" y="46" font-family="'Courier New', monospace" font-size="9.5" fill="#c9d1d9">Cloud Practitioner</text>
+    <text x="74" y="62" font-family="'Courier New', monospace" font-size="9" fill="#6e7681">Amazon Web Services</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.6s" fill="freeze"/>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg width="900" height="110" viewBox="0 0 900 110" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgStatus" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#070d1a"/>
+      <stop offset="100%" style="stop-color:#0a1220"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="110" fill="url(#bgStatus)" rx="8"/>
+  <rect width="898" height="108" x="1" y="1" fill="none" stroke="#1e3a5f" stroke-width="1" rx="7"/>
+  <text x="24" y="32" font-family="'Courier New', monospace" font-size="11" fill="#00d4ff" letter-spacing="3">// CURRENT STATUS</text>
+  <line x1="220" y1="26" x2="876" y2="26" stroke="#1e3a5f" stroke-width="1"/>
+
+  <!-- Working -->
+  <circle cx="34" cy="62" r="5" fill="#00ff88">
+    <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="48" y="67" font-family="'Courier New', monospace" font-size="12" fill="#c9d1d9">DevSecOps @ <tspan fill="#00ff88">Zakipoint Health</tspan></text>
+
+  <line x1="300" y1="50" x2="300" y2="76" stroke="#1e3a5f" stroke-width="1"/>
+
+  <!-- Learning -->
+  <circle cx="320" cy="62" r="5" fill="#f74c00">
+    <animate attributeName="r" values="5;7;5" dur="2.5s" begin="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="2.5s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="334" y="67" font-family="'Courier New', monospace" font-size="12" fill="#c9d1d9">Learning <tspan fill="#f74c00">Rust · Kernel Security</tspan></text>
+
+  <line x1="610" y1="50" x2="610" y2="76" stroke="#1e3a5f" stroke-width="1"/>
+
+  <!-- Heading -->
+  <circle cx="630" cy="62" r="5" fill="#a855f7">
+    <animate attributeName="r" values="5;7;5" dur="3s" begin="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="3s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="644" y="67" font-family="'Courier New', monospace" font-size="12" fill="#c9d1d9">Headed to <tspan fill="#a855f7">Critical Infra</tspan></text>
+
+  <text x="24" y="98" font-family="'Courier New', monospace" font-size="10" fill="#0077ff" opacity="0.6">saroj@zakipoint:~$</text>
+  <text x="172" y="98" font-family="'Courier New', monospace" font-size="10" fill="#00ff88" opacity="0.5">git commit -m "always be shipping"</text>
+  <rect x="406" y="87" width="6" height="12" fill="#00ff88" rx="1" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0;0.7" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

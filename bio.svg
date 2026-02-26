@@ -1,0 +1,27 @@
+<svg width="900" height="110" viewBox="0 0 900 110" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#070d1a"/>
+      <stop offset="100%" style="stop-color:#0a1220"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="110" fill="url(#bg2)" rx="8"/>
+  <rect width="898" height="108" x="1" y="1" fill="none" stroke="#1e3a5f" stroke-width="1" rx="7"/>
+  <rect x="0" y="0" width="4" height="110" fill="#00d4ff" rx="2" opacity="0.8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="20" y="28" font-family="'Courier New', monospace" font-size="12" fill="#0077ff">saroj@zakipoint:~$</text>
+  <text x="172" y="28" font-family="'Courier New', monospace" font-size="12" fill="#6e7681">cat about.txt</text>
+  <text x="20" y="52" font-family="'Courier New', monospace" font-size="11" fill="#c9d1d9" opacity="0">
+    CEH · AWS Architect · 5yrs breaking things professionally so others cant break them maliciously
+    <animate attributeName="opacity" values="0;0;1;1" dur="1.5s" begin="0.3s" fill="freeze"/>
+  </text>
+  <text x="20" y="72" font-family="'Courier New', monospace" font-size="11" fill="#00d4ff" opacity="0">
+    DevSecOps @ healthcare infra · pentest · exploit dev · headed toward kernel &amp; critical infra security
+    <animate attributeName="opacity" values="0;0;1;1" dur="1.5s" begin="0.7s" fill="freeze"/>
+  </text>
+  <text x="20" y="92" font-family="'Courier New', monospace" font-size="11" fill="#a855f7" opacity="0">
+    goal: go all the way down to the metal · where the stakes are highest and the attack surface deepest
+    <animate attributeName="opacity" values="0;0;1;1" dur="1.5s" begin="1.1s" fill="freeze"/>
+  </text>
+</svg>
